@@ -1,0 +1,19 @@
+{
+    "name": "foskytech/e-campus-electricity",
+    "description": "易校园 账号所属大学寝室电费余额获取",
+    "type": "l",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "FoskyTech\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mouse123s",
+            "email": "i@mouse123.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
