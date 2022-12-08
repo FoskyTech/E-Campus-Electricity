@@ -14,6 +14,6 @@
             "email": "i@mouse123.cn"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {}
 }
