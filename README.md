@@ -12,7 +12,7 @@ composer require foskytech/e-campus-electricity
 * **ymId** 在请求参数中，是一串数字
 
 # 使用
-参照 [Example](https://github.com/thephpleague/oauth2-server/blob/master/test/example.php) 
+参照 [Example](https://github.com/FoskyTech/E-Campus-Electricity/blob/main/test/example.php) 
 
 # License
 
