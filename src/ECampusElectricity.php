@@ -65,6 +65,11 @@ class ECampusElectricity
         ];
     }
 
+    /**
+     * 方法 queryBuilding
+     * @param mixed $areaId 校区ID
+     * @return array
+     */
     public function queryBuilding($areaId) {
         $data = $this->request('queryBuilding', ['areaId' => $areaId]);
 
@@ -81,6 +86,12 @@ class ECampusElectricity
         ];
     }
 
+    /**
+     * 方法 queryFloor
+     * @param mixed $areaId 校区ID
+     * @param mixed $buildingCode 宿舍楼代码
+     * @return array
+     */
     public function queryFloor($areaId, $buildingCode) {
         $data = $this->request('queryFloor', ['areaId' => $areaId, 'buildingCode' => $buildingCode]);
 
@@ -97,6 +108,13 @@ class ECampusElectricity
         ];
     }
 
+    /**
+     * 方法 queryRoom
+     * @param mixed $areaId 校区ID
+     * @param mixed $buildingCode 宿舍楼代码
+     * @param mixed $floorCode 楼层代码
+     * @return array
+     */
     public function queryRoom($areaId, $buildingCode, $floorCode) {
         $data = $this->request('queryRoom', ['areaId' => $areaId, 'buildingCode' => $buildingCode, 'floorCode' => $floorCode]);
 
@@ -113,6 +131,14 @@ class ECampusElectricity
         ];
     }
 
+    /**
+     * 方法 queryRoomSurplus
+     * @param mixed $areaId 校区ID
+     * @param mixed $buildingCode 宿舍楼代码
+     * @param mixed $floorCode 楼层代码
+     * @param mixed $roomCode 寝室代码
+     * @return array
+     */
     public function queryRoomSurplus($areaId, $buildingCode, $floorCode, $roomCode) {
         $data = $this->request('queryRoomSurplus', ['areaId' => $areaId, 'buildingCode' => $buildingCode, 'floorCode' => $floorCode, 'roomCode' => $roomCode]);
 
