@@ -1,7 +1,7 @@
 <?php
 /**
  * 易校园电费获取类
- * @author  Mouse123s <i@mouse123.cn>
+ * @author  FoskyM <i@fosky.top>
  * @version 1.0
  */
 namespace FoskyTech;
